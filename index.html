@@ -1,0 +1,58 @@
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap" rel="stylesheet">
+
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+<h1 class="col-xs-12 header">Image Idetification
+  <img src="logo.gif">
+</h1>
+<div class="col-sm-6 col-xs-12 maindiv">
+  <label>Webcam View</label>
+  <div id="camera"></div>
+  <button onclick="capture()" class="btn btn-info">Capture</button>
+</div>
+<div class="col-sm-6 col-xs-12 maindiv">
+  <label>Snapshot View</label>
+  <div id="snapshot"></div>
+  <button onclick="identify()" class="btn btn-info">Identify</button>
+</div>
+<div class="col-sm-6 col-xs-12" id="footer_div">
+  <img src="blub.gif">
+  <span id="objectResult"></span>
+</div>
+<div id="copyrightdiv">
+  Developed By Dhanvin
+</div>
+
+    </center>
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

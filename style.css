@@ -1,0 +1,62 @@
+body {
+    background-color: mediumslateblue;
+    font-family: 'Big Shoulders Stencil Display', cursive;   
+}
+.header img {
+width: 100;
+border-radius: 50%;
+}
+.header {
+    background-color:navy;
+    color: white;
+}
+.maindiv {
+    background-color: navy;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 22px;
+}
+.maindiv label {
+    background-color: mediumslateblue;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px white;
+    margin: 0px;
+}
+#camera, #snapshot {
+    margin: 0px;
+    width: 300px;
+    height: 300px;
+    border:1px solid white ;
+    box-shadow: 5px 5px 10px white;
+}
+.maindiv button {
+width: 300px;
+border: 1px solid white;
+box-shadow: 5px 5px 10px white;
+font-size: 22px;
+}
+#footer_div{
+    background-color:aqua ;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+#footer_div img {
+    width: 100px;
+
+}
+#copyrightdiv {
+    bottom: 0px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    line-height: 2;
+    font-size: 22;
+    color: grey;
+}
